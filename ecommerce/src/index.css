@@ -1,0 +1,162 @@
+/* body{
+ background-color: #EDF5E1;
+} */
+.dropdown-toggle {
+    color:black !important;
+}
+main{
+    min-height: 90vh;
+}
+/* h3{
+    padding: 0.3rem 0;
+} */
+.rating span{
+ margin: 0.1rem;
+}
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+a{
+    text-decoration: none ;
+}
+a:hover{
+    color:blueviolet
+}
+.card-body1{
+    position: relative; 
+}
+
+
+.card-title1{
+  position: absolute;
+  top: 0;
+  
+}
+.card-title2{
+   position: absolute;
+  margin-top: -10px;
+}
+.product-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.product-card{
+   max-width: 18rem; 
+    height: 23rem;
+    
+}
+.card-img-top{
+    max-width: 14rem;
+    max-height: 12rem;
+    
+}
+.marginaldistance-top{
+    margin-top: 7rem;
+}
+
+
+.main-page-screen{
+  margin-bottom: 20px;
+  margin-top: 7rem;
+}
+.product-rating{
+   
+    background-color: rgb(11, 11, 70);
+    width: 3rem;
+    height: 20px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 15px;
+    color:white
+}
+
+/* .product-brand{
+  position: absolute;
+  left:3;
+  top:0;
+ 
+} */
+.product-price{
+    position: absolute;
+    
+}
+@media only screen and (max-width: 320px) {
+    h1{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+    .marginaldistance-top{
+    margin-top: 8rem !important;
+  }
+  .main-page-screen{
+  
+  margin-top: 9rem;
+}
+.filter-box{
+    margin-top: 5px;
+}
+ .card-img-top{
+    max-width: 7rem !important;
+    max-height: 7rem;
+      
+    }
+    .card-body{
+        padding: 0 !important;
+    }
+    .search-box{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 540px) {
+    .product-card{
+        height: 20rem;
+    }
+    .card-title1{
+  height: 4.5rem; 
+  line-height: 18px;
+ }
+    h1{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+    .marginaldistance-top{
+    margin-top: 8rem !important;
+  }
+  .main-page-screen{
+  
+  margin-top: 9rem;
+}
+.filter-box{
+    margin-top: 5px;
+}
+ .card-img-top{
+    max-width: 7rem;
+    max-height: 8rem;
+      
+    }
+    .card-body{
+        padding: 0 !important;
+    }
+    .search-box{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 770px){
+    .card-img-top{
+    max-width: 10rem;
+  
+    
+}
+}
